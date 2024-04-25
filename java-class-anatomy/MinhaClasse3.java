@@ -1,11 +1,14 @@
 public class MinhaClasse3 {
     public static void main(String[] args) {
-        String meuNome = "Carlos";
+        String primeiroNome = "Carlos Vinícius";
+        String segundoNome = "Pereira";
 
-        int anoFabricacao = 2022;
+        String nomeCompleto = nomeCompleto(primeiroNome, segundoNome);
+        System.out.println(nomeCompleto);
+    }
 
-        boolean verdadeira = true;
+    public static String nomeCompleto (String primeiroNome, String segundoNome){
+        return "Resultado do método " + primeiroNome.concat(" ").concat(segundoNome);
 
-        anoFabricacao = 2018;
     }
 }
