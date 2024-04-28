@@ -9,5 +9,9 @@ public class TiposVariaveis {
         *float pi = 3.14F;
         *double salario = 1275.33; 
         */
+
+        /*EXEMPLO STRING:
+        * string meuNome = "Carlos Vinícius";
+        */
     }
 }
