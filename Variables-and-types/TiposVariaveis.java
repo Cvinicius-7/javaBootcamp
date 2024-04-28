@@ -11,7 +11,7 @@ public class TiposVariaveis {
         */
 
         /*EXEMPLO STRING:
-        * string meuNome = "Carlos Vinícius";
+        * String meuNome = "Carlos Vinícius";
         */
     }
 }
