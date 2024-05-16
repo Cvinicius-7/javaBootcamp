@@ -11,4 +11,11 @@ public class SmartTV {
     public void desligar(){
         ligada = false;
     }
+    public void aumentarVolume(){
+        volume++;
+    }
+    public void diminurVolume(){
+        volume--;
+    }
 }
+

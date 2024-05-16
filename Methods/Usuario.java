@@ -5,6 +5,9 @@ public class Usuario {
         
         SmartTV smartTV = new SmartTV();
 
+        smartTV.diminurVolume();
+        smartTV.diminurVolume();
+ 
         System.out.println("Tv Ligada ? " + smartTV.ligada);
         System.out.println("Tv Canal ? " + smartTV.canal);
         System.out.println("Tv Volume ? " + smartTV.volume);
