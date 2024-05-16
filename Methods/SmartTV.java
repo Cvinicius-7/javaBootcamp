@@ -5,17 +5,31 @@ public class SmartTV {
     int canal = 1;
     int volume = 25;
 
-    public void ligar(){
+    public void ligar() {
         ligada = true;
     }
-    public void desligar(){
+
+    public void desligar() {
         ligada = false;
     }
-    public void aumentarVolume(){
+
+    public void aumentarVolume() {
         volume++;
     }
-    public void diminurVolume(){
+
+    public void diminurVolume() {
         volume--;
     }
-}
 
+    public void aumentarCanal() {
+        canal++;
+    }
+
+    public void diminuirCanal() {
+        canal++;
+    }
+
+    public void mudarCanal(int novoCanal) {
+        canal = novoCanal;
+    }
+}
