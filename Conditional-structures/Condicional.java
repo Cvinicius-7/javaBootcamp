@@ -1,5 +1,4 @@
-package ConditionalStructures;
-public class CondicionalSimples {
+public class Condicional{
     public static void main(String[] args) {
         double saldo = 1000.0;
         double valorSaque = 500.0;
