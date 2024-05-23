@@ -7,7 +7,7 @@ public class CondicionalSimples {
         if(saldo >= valorSaque){
             saldo = saldo - valorSaque;
             System.out.println("Saque realizado com sucesso!");
-        } else {
+        } else if (valorSaque > 100000 ){
             System.out.println("Saldo insuficiente!");
         }
         System.out.println("Saldo atual: " + saldo);
